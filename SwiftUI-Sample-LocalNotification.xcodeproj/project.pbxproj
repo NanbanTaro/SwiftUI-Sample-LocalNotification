@@ -14,6 +14,8 @@
 		90DCED702C97E459001C0805 /* SwiftUI_Sample_LocalNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCED6F2C97E459001C0805 /* SwiftUI_Sample_LocalNotificationTests.swift */; };
 		90DCED7A2C97E459001C0805 /* SwiftUI_Sample_LocalNotificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCED792C97E459001C0805 /* SwiftUI_Sample_LocalNotificationUITests.swift */; };
 		90DCED7C2C97E459001C0805 /* SwiftUI_Sample_LocalNotificationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCED7B2C97E459001C0805 /* SwiftUI_Sample_LocalNotificationUITestsLaunchTests.swift */; };
+		90DCED892C97E754001C0805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCED882C97E754001C0805 /* AppDelegate.swift */; };
+		90DCED8B2C983634001C0805 /* random_cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90DCED8A2C983634001C0805 /* random_cat.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		90DCED752C97E459001C0805 /* SwiftUI-Sample-LocalNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-Sample-LocalNotificationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90DCED792C97E459001C0805 /* SwiftUI_Sample_LocalNotificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Sample_LocalNotificationUITests.swift; sourceTree = "<group>"; };
 		90DCED7B2C97E459001C0805 /* SwiftUI_Sample_LocalNotificationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Sample_LocalNotificationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		90DCED882C97E754001C0805 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90DCED8A2C983634001C0805 /* random_cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = random_cat.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +98,11 @@
 		90DCED5D2C97E458001C0805 /* SwiftUI-Sample-LocalNotification */ = {
 			isa = PBXGroup;
 			children = (
+				90DCED882C97E754001C0805 /* AppDelegate.swift */,
 				90DCED5E2C97E458001C0805 /* SwiftUI_Sample_LocalNotificationApp.swift */,
 				90DCED602C97E458001C0805 /* ContentView.swift */,
 				90DCED622C97E459001C0805 /* Assets.xcassets */,
+				90DCED8A2C983634001C0805 /* random_cat.jpg */,
 				90DCED642C97E459001C0805 /* Preview Content */,
 			);
 			path = "SwiftUI-Sample-LocalNotification";
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90DCED662C97E459001C0805 /* Preview Assets.xcassets in Resources */,
+				90DCED8B2C983634001C0805 /* random_cat.jpg in Resources */,
 				90DCED632C97E459001C0805 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90DCED892C97E754001C0805 /* AppDelegate.swift in Sources */,
 				90DCED612C97E458001C0805 /* ContentView.swift in Sources */,
 				90DCED5F2C97E458001C0805 /* SwiftUI_Sample_LocalNotificationApp.swift in Sources */,
 			);

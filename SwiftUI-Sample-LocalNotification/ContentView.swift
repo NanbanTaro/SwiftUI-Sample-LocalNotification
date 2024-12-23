@@ -15,6 +15,11 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            Button(action: { NotificationManager.instance.sendNotification() }) {
+                HStack {
+                    Text("Send Notification!!")
+                }
+            }
         }
         .padding()
     }
